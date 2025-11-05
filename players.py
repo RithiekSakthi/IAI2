@@ -8,7 +8,7 @@ soup = BeautifulSoup(url, 'lxml')
 #players = soup.find_all('tr')
 #print(players)
 players = soup.find_all('tr')[1:]
-st.write(players[0])
+# st.write(players[0])
 team_name = []
 years = []
 wins = []
