@@ -21,5 +21,6 @@ for i in players:
     years.append(year)
     wins.append(win)
  
-    data = pd.DataFrame({'Team Name': team_name, 'Year': years, 'Wins': wins})
-    st.dataframe(data)
+    
+data = pd.DataFrame({'Team Name': team_name, 'Year': years, 'Wins': wins})
+st.dataframe(data)
